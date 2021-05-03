@@ -1,0 +1,109 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Lora&display=swap');
+$blue: #6495ed;
+$light: #faebd7;
+$tan: #deb887;
+$date-gray: #818181;
+$link-blue: #6495ed;
+
+@mixin flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: $light;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+
+  img {
+    max-width: 100%;
+  }
+
+  & > div {
+    @media screen and (min-width: 768px) {
+      & {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+      }
+    }
+  }
+
+  header {
+    background-color: $blue;
+    padding: 4rem 2rem;
+    text-align: right;
+
+    a {
+      color: $light;
+
+      &:active {
+        color: $tan;
+      }
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  h1,
+  h2 {
+    margin: 0 0 2rem;
+    font-family: Lora, sans-serif;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    padding: 0.5rem 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link-blue;
+
+    &:active {
+      color: $tan;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h2 {
+    a {
+      color: black;
+
+      &:hover {
+        color: $link-blue;
+      }
+    }
+  }
+
+  article {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray;
+
+    .post-date {
+      color: $date-gray;
+    }
+    @media screen and (min-width: 768px) {
+      & {
+        margin: 2rem;
+      }
+    }
+  }
+
+  figure {
+    @include flex-center;
+    margin-top: 4rem;
+  }
+}

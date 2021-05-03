@@ -1,125 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
-:root {
-  /*
-    These are the same colors specified in the assignment, but I don't think
-    they actually match the same colors being used in the demo images...
-  */
-  --blue: #6495ed;
-  --light: #faebd7;
-  --tan: #deb887;
-  --date-gray: #818181;
-  --link-blue: #6495ed;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 body {
-  /* The background color... is #FAEBD7 */
-  background-color: var(--light);
-
-  /* The font list for the body copy is: Helvetica, Arial, sans-serif */
+  background-color: #faebd7;
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+  margin: 0; }
+  body img {
+    max-width: 100%; }
+  @media screen and (min-width: 768px) {
+    body > div {
+      display: grid;
+      grid-template-columns: 1fr 2fr; } }
+  body header {
+    background-color: #6495ed;
+    padding: 4rem 2rem;
+    text-align: right; }
+    body header a {
+      color: #faebd7; }
+      body header a:active {
+        color: #deb887; }
+      body header a:hover {
+        color: white; }
+  body h1,
+  body h2 {
+    margin: 0 0 2rem;
+    font-family: Lora, sans-serif; }
+  body ul {
+    list-style: none; }
+  body li {
+    padding: 0.5rem 0; }
+  body a {
+    text-decoration: none;
+    color: #6495ed; }
+    body a:active {
+      color: #deb887; }
+    body a:hover {
+      text-decoration: underline; }
+  body h2 a {
+    color: black; }
+    body h2 a:hover {
+      color: #6495ed; }
+  body article {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 0.3rem gray; }
+    body article .post-date {
+      color: #818181; }
+    @media screen and (min-width: 768px) {
+      body article {
+        margin: 2rem; } }
+  body figure {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem; }
 
-header {
-  background-color: var(--blue);
-  padding: 4rem 2rem;
-  text-align: right;
-}
-
-h1,
-h2 {
-  margin: 0 0 2rem 0;
-
-  /* The font for the headlines is Lora and can be found on Google fonts */
-  font-family: Lora, sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  padding: 0.5rem 0;
-}
-
-/* Other page links should behave thus: */
-
-/* normal and visited: #6495ED and no underline */
-a {
-  text-decoration: none;
-  color: var(--link-blue);
-}
-
-/* ...active: #DEB887 */
-a:active {
-  color: var(--tan);
-}
-
-/* ...hover: underlined */
-a:hover {
-  text-decoration: underline;
-}
-
-/* Navigation links should behave thus: */
-
-/* normal and visited: #FAEBD7 and no underline */
-header a {
-  /* ...the color of the text on the blue sidebar is #FAEBD7 */
-  color: var(--light);
-}
-
-/* ...active: #DEB887 */
-header a:active {
-  color: var(--tan);
-}
-
-/* ...hover: white and underlined */
-header a:hover {
-  color: white;
-}
-
-/* Article title links should behave thus: */
-
-/* ...normal and visited: black and no underline */
-h2 a {
-  color: black;
-}
-
-/* hover: #6495ED and underlined */
-h2 a:hover {
-  color: var(--link-blue);
-}
-
-article {
-  margin: 1rem;
-  padding: 2rem;
-  background-color: white;
-  box-shadow: 0.1rem 0.1rem 0.3rem gray;
-}
-
-figure {
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
-}
-
-img {
-  max-width: 100%;
-}
-
-.post-date {
-  color: var(--date-gray);
-}
-
-/* The finished page is responsive */
-@media screen and (min-width: 768px) {
-  body > div {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-
-  article {
-    margin: 2rem;
-  }
-}
+/*# sourceMappingURL=main.css.map */
