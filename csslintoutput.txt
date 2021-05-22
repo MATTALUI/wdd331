@@ -1,0 +1,105 @@
+
+cleanup-test.css
+  2:1   ✖  Expected empty line before rule                                                    rule-empty-line-before
+  5:13  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+  6:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+  6:3   ✖  Expected indentation of 0 spaces                                                   indentation
+  7:5   ✖  Expected indentation of 2 spaces                                                   indentation
+  7:21  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+  8:3   ✖  Expected empty line before at-rule                                                 at-rule-empty-line-before
+  8:3   ✖  Expected indentation of 0 spaces                                                   indentation
+  9:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 10:7   ✖  Expected indentation of 4 spaces                                                   indentation
+ 11:7   ✖  Expected indentation of 4 spaces                                                   indentation
+ 11:38  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 11:40  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 12:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 12:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 13:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 14:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 15:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 15:23  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 16:5   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 16:5   ✖  Expected indentation of 0 spaces                                                   indentation
+ 17:7   ✖  Expected indentation of 2 spaces                                                   indentation
+ 17:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 18:7   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 18:7   ✖  Expected indentation of 0 spaces                                                   indentation
+ 19:9   ✖  Expected indentation of 2 spaces                                                   indentation
+ 19:24  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 20:7   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 20:7   ✖  Expected indentation of 0 spaces                                                   indentation
+ 21:9   ✖  Expected indentation of 2 spaces                                                   indentation
+ 21:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 22:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 22:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 23:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 24:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 25:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 25:35  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 26:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 26:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 27:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 27:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 28:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 28:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 29:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 29:23  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 30:3   ✖  Expected selector "body a" to come before selector "body header a"                 no-descending-specificity
+ 30:3   ✖  Expected selector "body a" to come before selector "body header a:active"          no-descending-specificity
+ 30:3   ✖  Expected selector "body a" to come before selector "body header a:hover"           no-descending-specificity
+ 30:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 30:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 31:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 32:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 32:20  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 33:5   ✖  Expected selector "body a:active" to come before selector "body header a:active"   no-descending-specificity
+ 33:5   ✖  Expected selector "body a:active" to come before selector "body header a:hover"    no-descending-specificity
+ 33:5   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 33:5   ✖  Expected indentation of 0 spaces                                                   indentation
+ 34:7   ✖  Expected indentation of 2 spaces                                                   indentation
+ 34:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 35:5   ✖  Expected selector "body a:hover" to come before selector "body header a:active"    no-descending-specificity
+ 35:5   ✖  Expected selector "body a:hover" to come before selector "body header a:hover"     no-descending-specificity
+ 35:5   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 35:5   ✖  Expected indentation of 0 spaces                                                   indentation
+ 36:7   ✖  Expected indentation of 2 spaces                                                   indentation
+ 36:34  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 37:3   ✖  Expected selector "body h2 a" to come before selector "body header a:active"       no-descending-specificity
+ 37:3   ✖  Expected selector "body h2 a" to come before selector "body header a:hover"        no-descending-specificity
+ 37:3   ✖  Expected selector "body h2 a" to come before selector "body a:active"              no-descending-specificity
+ 37:3   ✖  Expected selector "body h2 a" to come before selector "body a:hover"               no-descending-specificity
+ 37:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 37:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 38:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 38:18  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 39:5   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 39:5   ✖  Expected indentation of 0 spaces                                                   indentation
+ 40:7   ✖  Expected indentation of 2 spaces                                                   indentation
+ 40:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 41:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 41:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 42:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 43:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 44:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 45:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 45:43  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 46:5   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 46:5   ✖  Expected indentation of 0 spaces                                                   indentation
+ 47:7   ✖  Expected indentation of 2 spaces                                                   indentation
+ 47:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 48:5   ✖  Expected empty line before at-rule                                                 at-rule-empty-line-before
+ 48:5   ✖  Expected indentation of 0 spaces                                                   indentation
+ 49:7   ✖  Expected indentation of 2 spaces                                                   indentation
+ 50:9   ✖  Expected indentation of 4 spaces                                                   indentation
+ 50:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 50:24  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before
+ 51:3   ✖  Expected empty line before rule                                                    rule-empty-line-before
+ 51:3   ✖  Expected indentation of 0 spaces                                                   indentation
+ 52:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 53:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 54:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 55:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 56:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 57:5   ✖  Expected indentation of 2 spaces                                                   indentation
+ 57:22  ✖  Expected newline before "}" of a multi-line block                                  block-closing-brace-newline-before

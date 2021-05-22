@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+body {
+  background-color: #faebd7;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+body img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+body header {
+  background-color: #6495ed;
+  padding: 4rem 2rem;
+  text-align: right;
+}
+
+body a {
+  text-decoration: none;
+  color: #6495ed;
+}
+
+body h2 a {
+  color: black;
+}
+
+body header a {
+  color: #faebd7;
+}
+
+body a:active {
+  color: #deb887;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body header a:active {
+  color: #deb887;
+}
+
+body header a:hover {
+  color: white;
+}
+
+body h1,
+body h2 {
+  margin: 0 0 2rem;
+  font-family: Lora, sans-serif;
+}
+
+body ul {
+  list-style: none;
+}
+
+body li {
+  padding: 0.5rem 0;
+}
+
+body h2 a:hover {
+  color: #6495ed;
+}
+
+body article {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0.1rem 0.1rem 0.3rem gray;
+}
+
+body article .post-date {
+  color: #818181;
+}
+
+@media screen and (min-width: 768px) {
+  body article {
+    margin: 2rem;
+  }
+}
+
+body figure {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=main.css.map */
