@@ -1,0 +1,80 @@
+/* --------------------------------
+
+xBasic style
+
+-------------------------------- */
+
+*, *::after, *::before {
+	@include box-sizing(border-box);
+}
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	font-weight: bold;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: $primary-font;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+  background-image: url('https://cdn.pixabay.com/photo/2018/05/11/09/29/glass-3389935_960_720.jpg');
+  background-size: cover;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & > h1, & > h2 {
+    margin: 0;
+    text-align: center;
+		font-weight: bold;
+  }
+}
+
+#zen-preamble {
+  border-bottom: 0.5rem solid $color-1;
+}
+
+div[role="article"] {
+	padding: 1rem;
+	& > p {
+		font-size: 0.75rem;
+	}
+}
+
+aside {
+	padding: 1rem;
+	font-size: 0.75rem;
+	& ul {
+		padding-left: 1rem;
+	}
+	& li {
+		color: $color-4;
+		& a {
+			color: $color-5;
+			text-decoration: underline dotted $color-1;
+			line-height: 1.5rem;
+		}
+	}
+	& .wrapper {
+		& div {
+			h3 {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
