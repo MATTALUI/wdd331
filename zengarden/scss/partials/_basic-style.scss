@@ -78,3 +78,13 @@ aside {
 		}
 	}
 }
+
+footer {
+	margin: 0 1rem;
+	padding: 1rem;
+	border: 1px solid $color-1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	text-align: center;
+}

@@ -420,4 +420,13 @@ aside {
   aside .wrapper div h3 {
     font-size: 1.2rem; }
 
+footer {
+  margin: 0 1rem;
+  padding: 1rem;
+  border: 1px solid #662c91;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
