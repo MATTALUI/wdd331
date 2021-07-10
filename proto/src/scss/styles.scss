@@ -1,0 +1,41 @@
+@import 'variables';
+@import 'node_modules/bootstrap/scss/bootstrap';
+$fa-font-path:"../../node_modules/font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+body {
+  background-color: $body-bg-color;
+}
+
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+
+#sectionLight {
+  background-color: #eceeef;
+  padding: 2rem;
+}
+
+ #sectionDark{
+   background-color: #cccccc;
+   padding: 2rem;
+ }
+
+.btn-primary {
+  color: white;
+  border: none;
+  background-color: red;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-google-plus-square {
+  color: #c32f10;
+}
+
+.fa-instagram {
+  color: white;
+}
